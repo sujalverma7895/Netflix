@@ -1,0 +1,94 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.603)), url(header.img.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.img {
+    margin-left: 50px;
+    width: 150px;
+    margin-top: 5px;
+}
+.box-1{
+    margin-left: 65px;
+    margin-top: 27px;
+}
+.contain{
+    margin-top: 10px;
+    height: 42px;
+    width: 320px;
+    background-color: rgba(255, 0, 0, 0.918);
+    color: white;
+    font-size: 17px;
+    border: solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contain:hover{
+    background-color: rgba(192, 4, 4, 0.87);
+    transition: 1s ease;
+    cursor: pointer;
+
+}
+.contain1{
+    height: 42px;
+    width: 320px;
+    background-color: rgba(128, 128, 128, 0.322);
+    color: white;
+    font-size: 17px;
+    border: solid transparent;
+    border-radius: 5px;
+}
+.contain1:hover{
+    background-color: rgba(94, 93, 93, 0.255);
+    transition: 1s ease;
+    cursor: pointer;
+
+}
+.box-2{
+    margin-left: 65px;
+    margin-top: 17px;
+}
+.box{
+    height:84vh;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.692);
+    margin-left: 30%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.container{
+    height: 55px;
+    width: 320px;
+    background: rgba(116, 140, 206, 0.185);
+    border:  0.1px solid rgb(209, 207, 207);
+    border-radius: 5px;
+    padding-left: 10px;
+    color: white;
+    
+}
+.box h1{
+    padding-left: 63px;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.lab{
+    top: 100px;
+    margin-top: 20px;
+}

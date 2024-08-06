@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="netflix 1.png">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <img src="logo.png" class="img">
+        </nav>
+
+        <div class="box">
+
+            <h1>Sign In</h1>
+            <div class="box-1">
+                <input type="text" placeholder="Email or mobile number" class="container" id="email">
+            </div>
+            <div class="box-2">
+                <input type="password" placeholder="password" class="container" id="passs">
+                <button onclick="set()" class="but"><i class="fa fa-eye-slash" aria-hidden="true" id="eye"></i></button>
+                
+            </div>
+            <div class="box-2">
+                <p id="error-message" style="color: red;"></p>
+            </div>
+            <div class="box-2">
+                <button class="contain" onclick="login()">Sign in</button>
+            </div>
+            <div class="box-3">
+                <p>OR</p>
+            </div>
+            <div class="box-2">
+                <button class="contain1" onclick="sendOTP()">Use a Sign-in code</button>
+            </div>
+            <div class="box-4">
+                <input type="checkbox">
+                <p>Remember me</p>
+            </div>
+            <div class="box-2">
+                <p>New to Netflix? <a href="Netflix1.html">Sign up now</a></p>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f1">
+            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a id="hide"
+                    onclick="submiit()">Learn more</a></p>
+        </div>
+        <div id="more" class="hidden">
+            <p>The information collected by Google reCAPTCHA is subject to the Google Privacy Policy and Terms of
+                Service, and is used for providing, maintaining, and improving the reCAPTCHA service and for general
+                security purposes (it is not used for personalised advertising by Google).</p>
+        </div>
+        <div class="f2">
+            <p>Question? Call 000-800-909-1645</p>
+        </div>
+        <div>
+            <ul class="ull">
+                <li>FAQ</li>
+                <li>Help Center</li>
+                <li>Term of Use</li>
+                <li>Privacy</li>
+                <li>Cookie Preference</li>
+                <li>Corporate Information</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="login.js">
+         
+    </script>
+</body>
+
+</html>
